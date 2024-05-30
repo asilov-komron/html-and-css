@@ -1,11 +1,13 @@
 @font-face {
-    font-family: 'ProbaPro-Medium';
-    src: url();
-}
+    font-family: myFirstFont;
+    src: url(fonts/ProbaPro-Medium.woff);
+  }
 
 body {
     background-image: url('assets/background.jpg');
     background-size: cover;
+    font-family: myFirstFont;
+
 }
 
 
